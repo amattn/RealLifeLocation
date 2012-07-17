@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A20C52D15B5EFE500445177 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C52C15B5EFE500445177 /* UIKit.framework */; };
+		2A20C52F15B5EFE500445177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C52E15B5EFE500445177 /* Foundation.framework */; };
+		2A20C53115B5EFE500445177 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C53015B5EFE500445177 /* CoreGraphics.framework */; };
+		2A20C53715B5EFE500445177 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A20C53515B5EFE500445177 /* InfoPlist.strings */; };
+		2A20C53915B5EFE500445177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20C53815B5EFE500445177 /* main.m */; };
+		2A20C53E15B5EFE500445177 /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20C53D15B5EFE500445177 /* RLAppDelegate.m */; };
+		2A20C54215B5EFE500445177 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A20C54015B5EFE500445177 /* MainStoryboard_iPhone.storyboard */; };
+		2A20C54515B5EFE500445177 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A20C54315B5EFE500445177 /* MainStoryboard_iPad.storyboard */; };
+		2A20C54915B5EFE500445177 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20C54815B5EFE500445177 /* RLViewController.m */; };
+		2A20C55115B5EFE500445177 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C55015B5EFE500445177 /* SenTestingKit.framework */; };
+		2A20C55215B5EFE500445177 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C52C15B5EFE500445177 /* UIKit.framework */; };
+		2A20C55315B5EFE500445177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C52E15B5EFE500445177 /* Foundation.framework */; };
+		2A20C55B15B5EFE500445177 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A20C55915B5EFE500445177 /* InfoPlist.strings */; };
+		2A20C55E15B5EFE500445177 /* RealLifeLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20C55D15B5EFE500445177 /* RealLifeLocationTests.m */; };
+		2A20C57015B5F09000445177 /* RLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20C56F15B5F09000445177 /* RLLocationManager.m */; };
+		2A20C57215B5F0F800445177 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A20C57115B5F0F800445177 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A20C55415B5EFE500445177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A20C51F15B5EFE400445177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A20C52715B5EFE500445177;
+			remoteInfo = RealLifeLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A20C52815B5EFE500445177 /* RealLifeLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealLifeLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A20C52C15B5EFE500445177 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A20C52E15B5EFE500445177 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A20C53015B5EFE500445177 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A20C53415B5EFE500445177 /* RealLifeLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealLifeLocation-Info.plist"; sourceTree = "<group>"; };
+		2A20C53615B5EFE500445177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A20C53815B5EFE500445177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A20C53A15B5EFE500445177 /* RealLifeLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealLifeLocation-Prefix.pch"; sourceTree = "<group>"; };
+		2A20C53B15B5EFE500445177 /* PrecompiledGlobalUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrecompiledGlobalUtilities.h; sourceTree = "<group>"; };
+		2A20C53C15B5EFE500445177 /* RLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RLAppDelegate.h; path = Source/RLAppDelegate.h; sourceTree = "<group>"; };
+		2A20C53D15B5EFE500445177 /* RLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RLAppDelegate.m; path = Source/RLAppDelegate.m; sourceTree = "<group>"; };
+		2A20C54115B5EFE500445177 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Resources/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2A20C54415B5EFE500445177 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Resources/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2A20C54715B5EFE500445177 /* RLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RLViewController.h; path = Source/View/RLViewController.h; sourceTree = "<group>"; };
+		2A20C54815B5EFE500445177 /* RLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RLViewController.m; path = Source/View/RLViewController.m; sourceTree = "<group>"; };
+		2A20C54F15B5EFE500445177 /* RealLifeLocationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealLifeLocationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A20C55015B5EFE500445177 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2A20C55815B5EFE500445177 /* RealLifeLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealLifeLocationTests-Info.plist"; sourceTree = "<group>"; };
+		2A20C55A15B5EFE500445177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A20C55C15B5EFE500445177 /* RealLifeLocationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealLifeLocationTests.h; sourceTree = "<group>"; };
+		2A20C55D15B5EFE500445177 /* RealLifeLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealLifeLocationTests.m; sourceTree = "<group>"; };
+		2A20C56E15B5F09000445177 /* RLLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLocationManager.h; sourceTree = "<group>"; };
+		2A20C56F15B5F09000445177 /* RLLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLocationManager.m; sourceTree = "<group>"; };
+		2A20C57115B5F0F800445177 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A20C52515B5EFE500445177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20C52D15B5EFE500445177 /* UIKit.framework in Frameworks */,
+				2A20C52F15B5EFE500445177 /* Foundation.framework in Frameworks */,
+				2A20C53115B5EFE500445177 /* CoreGraphics.framework in Frameworks */,
+				2A20C57215B5F0F800445177 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A20C54B15B5EFE500445177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20C55115B5EFE500445177 /* SenTestingKit.framework in Frameworks */,
+				2A20C55215B5EFE500445177 /* UIKit.framework in Frameworks */,
+				2A20C55315B5EFE500445177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A20C51D15B5EFE400445177 = {
+			isa = PBXGroup;
+			children = (
+				2A20C53215B5EFE500445177 /* RealLifeLocation */,
+				2A20C55615B5EFE500445177 /* RealLifeLocationTests */,
+				2A20C52B15B5EFE500445177 /* Frameworks */,
+				2A20C52915B5EFE500445177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A20C52915B5EFE500445177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C52815B5EFE500445177 /* RealLifeLocation.app */,
+				2A20C54F15B5EFE500445177 /* RealLifeLocationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A20C52B15B5EFE500445177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C52C15B5EFE500445177 /* UIKit.framework */,
+				2A20C52E15B5EFE500445177 /* Foundation.framework */,
+				2A20C53015B5EFE500445177 /* CoreGraphics.framework */,
+				2A20C57115B5F0F800445177 /* CoreLocation.framework */,
+				2A20C55015B5EFE500445177 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A20C53215B5EFE500445177 /* RealLifeLocation */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C53C15B5EFE500445177 /* RLAppDelegate.h */,
+				2A20C53D15B5EFE500445177 /* RLAppDelegate.m */,
+				2A20C53F15B5EFE500445177 /* Resources */,
+				2A20C56B15B5F07A00445177 /* Model */,
+				2A20C54615B5EFE500445177 /* View */,
+				2A20C53315B5EFE500445177 /* Supporting Files */,
+			);
+			path = RealLifeLocation;
+			sourceTree = "<group>";
+		};
+		2A20C53315B5EFE500445177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C53415B5EFE500445177 /* RealLifeLocation-Info.plist */,
+				2A20C53515B5EFE500445177 /* InfoPlist.strings */,
+				2A20C53815B5EFE500445177 /* main.m */,
+				2A20C53A15B5EFE500445177 /* RealLifeLocation-Prefix.pch */,
+				2A20C53B15B5EFE500445177 /* PrecompiledGlobalUtilities.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A20C53F15B5EFE500445177 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C54015B5EFE500445177 /* MainStoryboard_iPhone.storyboard */,
+				2A20C54315B5EFE500445177 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A20C54615B5EFE500445177 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C54715B5EFE500445177 /* RLViewController.h */,
+				2A20C54815B5EFE500445177 /* RLViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2A20C55615B5EFE500445177 /* RealLifeLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C55C15B5EFE500445177 /* RealLifeLocationTests.h */,
+				2A20C55D15B5EFE500445177 /* RealLifeLocationTests.m */,
+				2A20C55715B5EFE500445177 /* Supporting Files */,
+			);
+			path = RealLifeLocationTests;
+			sourceTree = "<group>";
+		};
+		2A20C55715B5EFE500445177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C55815B5EFE500445177 /* RealLifeLocationTests-Info.plist */,
+				2A20C55915B5EFE500445177 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A20C56B15B5F07A00445177 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C56C15B5F07A00445177 /* Location */,
+			);
+			name = Model;
+			path = Source/Model;
+			sourceTree = "<group>";
+		};
+		2A20C56C15B5F07A00445177 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				2A20C56E15B5F09000445177 /* RLLocationManager.h */,
+				2A20C56F15B5F09000445177 /* RLLocationManager.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A20C52715B5EFE500445177 /* RealLifeLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A20C56115B5EFE500445177 /* Build configuration list for PBXNativeTarget "RealLifeLocation" */;
+			buildPhases = (
+				2A20C52415B5EFE500445177 /* Sources */,
+				2A20C52515B5EFE500445177 /* Frameworks */,
+				2A20C52615B5EFE500445177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealLifeLocation;
+			productName = RealLifeLocation;
+			productReference = 2A20C52815B5EFE500445177 /* RealLifeLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A20C54E15B5EFE500445177 /* RealLifeLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A20C56415B5EFE500445177 /* Build configuration list for PBXNativeTarget "RealLifeLocationTests" */;
+			buildPhases = (
+				2A20C54A15B5EFE500445177 /* Sources */,
+				2A20C54B15B5EFE500445177 /* Frameworks */,
+				2A20C54C15B5EFE500445177 /* Resources */,
+				2A20C54D15B5EFE500445177 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A20C55515B5EFE500445177 /* PBXTargetDependency */,
+			);
+			name = RealLifeLocationTests;
+			productName = RealLifeLocationTests;
+			productReference = 2A20C54F15B5EFE500445177 /* RealLifeLocationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A20C51F15B5EFE400445177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2A20C52215B5EFE400445177 /* Build configuration list for PBXProject "RealLifeLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A20C51D15B5EFE400445177;
+			productRefGroup = 2A20C52915B5EFE500445177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A20C52715B5EFE500445177 /* RealLifeLocation */,
+				2A20C54E15B5EFE500445177 /* RealLifeLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A20C52615B5EFE500445177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20C53715B5EFE500445177 /* InfoPlist.strings in Resources */,
+				2A20C54215B5EFE500445177 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2A20C54515B5EFE500445177 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A20C54C15B5EFE500445177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20C55B15B5EFE500445177 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A20C54D15B5EFE500445177 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A20C52415B5EFE500445177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20C53915B5EFE500445177 /* main.m in Sources */,
+				2A20C53E15B5EFE500445177 /* RLAppDelegate.m in Sources */,
+				2A20C54915B5EFE500445177 /* RLViewController.m in Sources */,
+				2A20C57015B5F09000445177 /* RLLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A20C54A15B5EFE500445177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20C55E15B5EFE500445177 /* RealLifeLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A20C55515B5EFE500445177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A20C52715B5EFE500445177 /* RealLifeLocation */;
+			targetProxy = 2A20C55415B5EFE500445177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A20C53515B5EFE500445177 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A20C53615B5EFE500445177 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A20C54015B5EFE500445177 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A20C54115B5EFE500445177 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2A20C54315B5EFE500445177 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A20C54415B5EFE500445177 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2A20C55915B5EFE500445177 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A20C55A15B5EFE500445177 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A20C55F15B5EFE500445177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A20C56015B5EFE500445177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A20C56215B5EFE500445177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLifeLocation/RealLifeLocation-Prefix.pch";
+				INFOPLIST_FILE = "RealLifeLocation/RealLifeLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A20C56315B5EFE500445177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLifeLocation/RealLifeLocation-Prefix.pch";
+				INFOPLIST_FILE = "RealLifeLocation/RealLifeLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A20C56515B5EFE500445177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RealLifeLocation.app/RealLifeLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLifeLocation/RealLifeLocation-Prefix.pch";
+				INFOPLIST_FILE = "RealLifeLocationTests/RealLifeLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2A20C56615B5EFE500445177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RealLifeLocation.app/RealLifeLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLifeLocation/RealLifeLocation-Prefix.pch";
+				INFOPLIST_FILE = "RealLifeLocationTests/RealLifeLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A20C52215B5EFE400445177 /* Build configuration list for PBXProject "RealLifeLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A20C55F15B5EFE500445177 /* Debug */,
+				2A20C56015B5EFE500445177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A20C56115B5EFE500445177 /* Build configuration list for PBXNativeTarget "RealLifeLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A20C56215B5EFE500445177 /* Debug */,
+				2A20C56315B5EFE500445177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A20C56415B5EFE500445177 /* Build configuration list for PBXNativeTarget "RealLifeLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A20C56515B5EFE500445177 /* Debug */,
+				2A20C56615B5EFE500445177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A20C51F15B5EFE400445177 /* Project object */;
+}
